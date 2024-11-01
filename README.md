@@ -1,4 +1,6 @@
-# Langkah-DNS-SERVERinstall-DNS-server- Langkah Kerja Masukkan cd 2 dan 3
+# INSTALL-DNS-SERVER-DEBIAN
+install-DNS-server- 
+Langkah Kerja Masukkan cd 2 dan 3
 
 apt-cdrom add apt-get update Instalasi aplikasi DNS server root@smkmanusa:# apt-get install bind9 dnsutils➔ masukkan cd 1 dan cd 2 Konfigurasi DNS server (file named.conf) root@smkmanusa:# nano /etc/bind/named.conf.default-zones Edit pada baris: zone "smkmanusa.sch.id" { type master; file "/etc/bind/db.manusa"; };
 
